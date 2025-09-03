@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { log, logError } = require('./logger');
+const { log, logError } = require('./logger.js');
 
 const SENT_FILE = path.resolve(__dirname, '../../sentUsers.json');
 
