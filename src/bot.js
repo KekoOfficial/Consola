@@ -3,8 +3,8 @@ const pino = require('pino');
 const cron = require('node-cron');
 const qrcode = require('qrcode-terminal');
 const chalk = require('chalk');
-const { loadSentRecords, saveSentRecords } = require('./utils/fileHandler');
-const { log, logError } = require('./utils/logger');
+const { loadSentRecords, saveSentRecords } = require('./utils/fileHandler.js');
+const { log, logError } = require('./utils/logger.js');
 
 const botVersion = "1.0.0";
 let sentUsers = [];
